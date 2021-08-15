@@ -9,3 +9,13 @@ function greet(person,msg = 'hey there'){
 }
 
 console.log(greet('yarden'))
+
+const num = [13,4,5,21,55]
+
+console.log(Math.max(...num))
+
+const cats = ['blue','scoust']
+const dogs = ['rusty','wyatt']
+
+const allPets = [...cats,...dogs]
+console.log(allPets)
