@@ -3,3 +3,9 @@ function rollDice(numSide = 6){
 }
 
 console.log(rollDice())
+
+function greet(person,msg = 'hey there'){
+    console.log(`${msg},${person}`)
+}
+
+console.log(greet('yarden'))
